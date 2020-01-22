@@ -1,0 +1,130 @@
+@media screen and (max-width: 480px) {
+
+	.desktop-hide {
+  		display: inline;
+	}
+
+	.mobile_nav {
+		display: inline;
+	}
+
+	ol.carousel-indicators {
+		display: none;
+	}
+
+	div.accordion button {
+	  float: left;
+	}
+
+	body {
+		font-size: 100%;
+		background-color: #faf7f3;
+	}
+
+	.no-footer {
+		display: none;
+	}
+
+	.figure-img {
+		margin-left: 30px;
+	}
+
+	#content {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 1em; 
+		border-right: none; 
+	}
+	#content h3 {
+		font-size: 1.25em; 
+		margin: 0; 
+	}
+
+	fieldset.github-pane {
+	
+	}
+
+	.center-img {
+		margin-left: 20%;
+
+	}
+
+	header h4 {
+		text-align: center;
+	}
+
+	header h4 span {
+		display: none;
+	}
+
+	nav ul li,
+	nav ul li a {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: inline;
+		text-align: center;
+	}
+
+	#bio {
+		font-size: .875em; 
+		margin-left: 0em; 
+	}
+	#bio a {
+		border-bottom: none;
+	}
+
+	.flip-container {
+		display: none;
+	}
+
+}
+
+/* Search bar clutter reduction */
+@media screen and (max-width: 823px) {
+	.search_bar {
+		display: none;
+	}
+
+	.footer {
+		/*margin-bottom: 2%;*/
+	}
+
+	div.find-me {
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 844px) {
+	div.accordion a {
+		  float: left;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	div.find-me,
+	div.github-card,
+	div.link-div {
+		display: none;
+	}
+
+	div.footer {
+		margin-left: -1%;
+	}
+
+	div.link-div-sub {
+		display: inline;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 1193px) {
+	.project_footer {
+		display: none;
+	}
+}
